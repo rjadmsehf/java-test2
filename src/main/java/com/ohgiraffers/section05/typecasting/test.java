@@ -16,11 +16,13 @@ public class test {
 
         int var1 = 'a';
         short var2 = 30;
-        short result = (short)var1 + var2;          //???? 왜 빨간줄
-
-        System.out.println("result = " + result);
-
-
+        short result = (short) var1 + var2;          //???? 왜 빨간줄
+//        System.out.println((short) var1 + var2 );
+//        System.out.println("result = " + result);
+//        System.out.println((short)'a'+ var2);
+        int x = 'a';
+//        System.out.println((short)+ x + var2);
+        System.out.println('a' +1);
 
 
 
