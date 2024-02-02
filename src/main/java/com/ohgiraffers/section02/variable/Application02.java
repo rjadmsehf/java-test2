@@ -25,29 +25,34 @@ public class Application02 {
 
         /* 목차 1-1-1 숫자를 취급하는 자료형*/
         /* 필기 정수*를 취급하는 자료형은 4가지가 있다*/
-        byte bnum;     //1byet
-        short snum;    //2byet
-        int inum;      //4byet
-        long lnum;     //8byet
+
+        byte bnum;     //1byte
+        short snum;    //2byte
+        int inum;      //4byte
+        long lnum;     //8byte
 
         /* 필기 실수*를 취급하는 자료형은 2가지가 있다.*/
-        float fnum;     //4byet
-        double dnum;    //8byet   필기 소수점까지 출력하기에 바이트가 높다
+
+        float fnum;     //4byte
+        double dnum;    //8byte   필기 소수점까지 출력하기에 바이트가 높다
 
         /* 목차 1-1-2 문자를 취급하는 자료형 */
-        /* 필기 문자*를 취급하는 자료형은 1가지가 있다*/
-        char ch;          //2byet
+
+        /* 필기 문자*를 취급하는 자료형은 2가지가 있다*/
+
+        char ch;          //2byte
         char ch2;
 
 
         /* 목차 1-1-3 논리값을 취급하는 자료형*/
-        boolean isTrue;     //1byet
+
+        boolean isTrue;     //1byte
 
 
         /* 필기 이상 8가지를 기본자료형(Primary type)이라고 한다
 
         /* 목차 1-1-4 문자열*을 취급하는 자료형*/
-        String str;         //4byet (엄밀히 이야기 하면 주소값은 4byet 정수형이다)
+        String str;         //4byte (엄밀히 이야기 하면 주소값은 4byet 정수형이다)
 
 
         /* 목차 2 볁수에 값을 대입한다. (값 대입 및 초기화)*/
@@ -67,6 +72,7 @@ public class Application02 {
         ch = 'a';
         ch = 97;     // 'a' 는 97은 숫자였지? 그래서 숫자로도 저장할 수 있다
 
+
         /* 목차 2-4 논리를 취급하는 자료형에 값 대입*/
         isTrue = true;
         System.out.println("=====================구분선===================");
@@ -78,7 +84,7 @@ public class Application02 {
         /* 목차 2-5 문자열을 취급하는 자료형에 값 대입*/
         str = "안녕하세요";
 
-
+        System.out.println(ch);
 
 
 

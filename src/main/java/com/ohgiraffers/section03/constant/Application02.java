@@ -20,7 +20,7 @@ public class Application02 {
         /* 목차 2. 단어와 단어 연결은 언더스코어(_)를 사용한다 .*/
         final int MAX_AGE = 50;
         final int MIN_AGE = 20;
-        final int minAge = 30;     // 필기 camel cass 사용이 가능하지만 역시 변수와 구분이 되지 않는다. ** 구분용도
+        final int minAge = 30;     // 필기 camel cass (단어와 단어시작에 대문자 사용) 사용이 가능하지만 역시 변수와 구분이 되지 않는다. ** 구분용도
 
 
 
