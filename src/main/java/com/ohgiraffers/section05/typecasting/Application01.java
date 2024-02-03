@@ -36,6 +36,7 @@ public class Application01 {
         long num2 = 20;
 
 //        int result1 = num1 + num2;  //자동으로 큰 자료형인 long으로 변경 후 계산하기 때문에 int형 변수에 값을 담을 수 없다.
+
         long result1 = num1 +num2; //int + long은서로 다른 자료형이라 데이터 손실이 발생하지 않는다 int > long 변환을
 
         System.out.println("result1 = " + result1);
@@ -73,6 +74,8 @@ public class Application01 {
         /* 목차 1-4 논리형은 형변환 규칙에서 제외된다.*/
         /* 필기 어느 자료형이든 boolean 을 형변환 해서 담을수 없다.*/
         boolean isTrue = true;
+
+
 //        byte b = isTrue;
 //        float f = isTrue;
 //        char c = isTrue;
