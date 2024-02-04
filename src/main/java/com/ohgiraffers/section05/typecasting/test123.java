@@ -9,7 +9,20 @@ public class test123 {
         X =  AGE+ 10;
 
         System.out.println(X);
-        //일때 오류가 뚤지 아니면 출력됬을때 답은뭘까용
+        // 문제  : 일때 오류가 뚤지 아니면 출력됬을때 답은뭘까용
+
+        int var1 = 'a';
+        short var2 = 30;
+        short result = (short)var1 + var2;
+
+
+
+
+
+
+
+
+
 
     }
 }

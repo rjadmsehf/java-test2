@@ -50,14 +50,14 @@ public class test1 {
 
 
 
-        System.out.println("============================구분선 ==========================");
-        int var1 = 'a';
-        short var2 = 30;
-        short result = (short) var1 + var2;
-
-        long var10 = 'a';
-        int var20 = 30;
-        int result0 = (int) var1 + var2;
+//        System.out.println("============================구분선 ==========================");
+//        int var1 = 'a';
+////        short var2 = 30;
+////        short result = (short) var1 + var2;
+//
+//        long var10 = 'a';
+//        int var20 = 30;
+//        int result0 = (int) var1 + var2;
 
 
         // 정수 기본자료형 4가지
@@ -77,7 +77,21 @@ public class test1 {
 
         //논리형 기본자료형 1가지
         // boolean
+//
+//        int var1 ='a';
+////        short var2 = 30;
+//        int result = var1 + var2;
+//        System.out.println(result);
+//        byte var1 = 3;
+//        short var2 = 'a';
+//        int result = var1 + var2;
+//        System.out.println(result);
 
+//        long X = 10;
+//        int Y = 'a';
+//        int Z = (int)Y + X;
+
+//
 
 
 
