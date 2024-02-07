@@ -80,8 +80,12 @@ public class Application01 {
 //        float f = isTrue;
 //        char c = isTrue;
 //        String s = isTrue;
-        
-        
+
+        double a = 3.2;
+        double b = 2.8;
+
+        int x = (int)a +(int)b;
+        System.out.println("x = " + x);
         
         
         

@@ -13,7 +13,7 @@ public class test123 {
 
         int var1 = 'a';
         short var2 = 30;
-        short result = (short)var1 + var2;
+//        short result = (short)var1 + var2;
 
 
 
